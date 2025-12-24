@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "id": "p_istanbul_001",
+      "title": "Mechanical Keyboard (Hot-Swappable)",
+      "description": "Compact 75% mechanical keyboard with hot-swappable switches and PBT keycaps.",
+      "price": {
+        "amount": 3999,
+        "currency": "TRY"
+      },
+      "location": {
+        "city": "Istanbul",
+        "district": "Kadikoy"
+      },
+      "coverImage": {
+        "src": "/products/p_istanbul_001.svg",
+        "alt": "Mechanical keyboard product image"
+      },
+      "updatedAt": "2025-12-20T10:20:00.000Z"
+    },
+    {
+      "id": "p_ankara_002",
+      "title": "27-inch 4K Monitor",
+      "description": "IPS panel, 60Hz, ergonomic stand. Great for coding and design.",
+      "price": {
+        "amount": 8999,
+        "currency": "TRY"
+      },
+      "location": {
+        "city": "Ankara",
+        "district": "Cankaya"
+      },
+      "coverImage": {
+        "src": "/products/p_ankara_002.svg",
+        "alt": "4K monitor product image"
+      },
+      "updatedAt": "2025-12-18T12:00:00.000Z"
+    },
+    {
+      "id": "p_izmir_003",
+      "title": "Ergonomic Office Chair",
+      "description": "Adjustable lumbar support, breathable mesh back, and smooth casters.",
+      "price": {
+        "amount": 12499,
+        "currency": "TRY"
+      },
+      "location": {
+        "city": "Izmir",
+        "district": "Konak"
+      },
+      "coverImage": {
+        "src": "/products/p_izmir_003.svg",
+        "alt": "Ergonomic office chair product image"
+      },
+      "updatedAt": "2025-12-22T08:30:00.000Z"
+    }
+  ]
+}
+
+

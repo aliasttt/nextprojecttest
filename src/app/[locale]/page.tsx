@@ -1,7 +1,7 @@
 import { getDictionary } from "@/i18n/get-dictionary";
 import type { Locale } from "@/i18n/locales";
 import { ProductGrid } from "@/components/organisms/ProductGrid";
-import { getProducts } from "@/services/productService";
+import { getProductsByLocale } from "@/services/productService";
 import { PageContainer } from "@/components/templates/PageContainer";
 
 type Props = Readonly<{
@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Props) {
 export default async function HomePage({ params }: Props) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
-  const products = await getProducts();
+  const products = await getProductsByLocale(locale);
 
   return (
     <PageContainer>

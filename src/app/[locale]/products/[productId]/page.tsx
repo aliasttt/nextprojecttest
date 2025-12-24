@@ -5,7 +5,7 @@ import type { Locale } from "@/i18n/locales";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { formatCurrency } from "@/lib/format/format-currency";
 import { FavoriteButton } from "@/components/molecules/FavoriteButton";
-import { getProduct } from "@/services/productService";
+import { getProductByLocale } from "@/services/productService";
 import { PageContainer } from "@/components/templates/PageContainer";
 
 type Props = Readonly<{
@@ -20,7 +20,7 @@ export const dynamic = "force-dynamic";
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, productId } = await params;
   const dict = await getDictionary(locale);
-  const product = await getProduct(productId);
+  const product = await getProductByLocale(productId, locale);
   if (!product) return {};
 
   const title = `${product.title} · ${dict.common.appName}`;
@@ -50,7 +50,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function ProductDetailPage({ params }: Props) {
   const { locale, productId } = await params;
   const dict = await getDictionary(locale);
-  const product = await getProduct(productId);
+  const product = await getProductByLocale(productId, locale);
   if (!product) notFound();
 
   const jsonLd = {

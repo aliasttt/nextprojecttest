@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "id": "p_istanbul_001",
+      "title": "Mekanik Klavye (Hot-Swap)",
+      "description": "Hot-swap anahtarlı ve PBT tuş kapaklı, kompakt %75 mekanik klavye.",
+      "price": {
+        "amount": 3999,
+        "currency": "TRY"
+      },
+      "location": {
+        "city": "İstanbul",
+        "district": "Kadıköy"
+      },
+      "coverImage": {
+        "src": "/products/p_istanbul_001.svg",
+        "alt": "Mekanik klavye ürün görseli"
+      },
+      "updatedAt": "2025-12-20T10:20:00.000Z"
+    },
+    {
+      "id": "p_ankara_002",
+      "title": "27 inç 4K Monitör",
+      "description": "IPS panel, 60Hz, ergonomik stand. Kodlama ve tasarım için ideal.",
+      "price": {
+        "amount": 8999,
+        "currency": "TRY"
+      },
+      "location": {
+        "city": "Ankara",
+        "district": "Çankaya"
+      },
+      "coverImage": {
+        "src": "/products/p_ankara_002.svg",
+        "alt": "4K monitör ürün görseli"
+      },
+      "updatedAt": "2025-12-18T12:00:00.000Z"
+    },
+    {
+      "id": "p_izmir_003",
+      "title": "Ergonomik Ofis Koltuğu",
+      "description": "Ayarlanabilir bel desteği, nefes alan file sırt ve akıcı tekerlekler.",
+      "price": {
+        "amount": 12499,
+        "currency": "TRY"
+      },
+      "location": {
+        "city": "İzmir",
+        "district": "Konak"
+      },
+      "coverImage": {
+        "src": "/products/p_izmir_003.svg",
+        "alt": "Ergonomik ofis koltuğu ürün görseli"
+      },
+      "updatedAt": "2025-12-22T08:30:00.000Z"
+    }
+  ]
+}
+
+

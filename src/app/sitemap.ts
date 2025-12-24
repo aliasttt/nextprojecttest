@@ -5,7 +5,8 @@ import { LOCALES } from "@/i18n/locales";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = getSiteUrl();
-  const products = await listProducts();
+  // Sitemap only needs stable product IDs; pick one locale's mock dataset.
+  const products = await listProducts("en");
 
   const staticRoutes: MetadataRoute.Sitemap = LOCALES.flatMap((locale) => [
     { url: `${base}/${locale}`, changeFrequency: "daily" as const, priority: 1 },
