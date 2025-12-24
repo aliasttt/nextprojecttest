@@ -1,0 +1,41 @@
+[19:22:39.862] [INFO] storybook v10.1.10
+[19:23:14.515] [DEBUG] Getting package.json info for C:/Users/DELL/Desktop/nexttest/package.json...
+[19:23:14.530] [WARN] You are currently using Storybook 10.1.10 but you have packages which are incompatible with it:
+
+- @storybook/addon-essentials@8.6.15 which depends on 8.6.15
+ Repo: https://github.com/storybookjs/storybook/tree/next/code/addons/essentials
+- @storybook/addon-interactions@8.6.15 which depends on 8.6.15
+ Repo: https://github.com/storybookjs/storybook/tree/next/code/addons/interactions
+- @storybook/test@8.6.15 which depends on 8.6.15
+ Repo: https://github.com/storybookjs/storybook/tree/next/code/lib/test
+
+Please consider updating your packages or contacting the maintainers for compatibility details.
+
+For more details on compatibility guidance, see:
+https://github.com/storybookjs/storybook/issues/32836
+[19:23:19.350] [INFO] Storybook collects completely anonymous usage telemetry. We use it to shape Storybook's roadmap and prioritize features. You can learn more, including how to opt out, at https://storybook.js.org/telemetry
+[19:23:23.843] [INFO] Starting...
+[19:24:26.286] [DEBUG] Starting preview..
+[19:24:26.507] [INFO] Using implicit CSS loaders
+[19:24:29.072] [ERROR] Failed to build the preview
+[19:24:29.075] [ERROR] [38;2;241;97;97mError: Cannot find module 'ajv/dist/compile/codegen'
+Require stack:
+- .\node_modules\ajv-keywords\dist\definitions\typeof.js
+- .\node_modules\ajv-keywords\dist\keywords\typeof.js
+- .\node_modules\ajv-keywords\dist\keywords\index.js
+- .\node_modules\ajv-keywords\dist\index.js
+- .\node_modules\schema-utils\dist\validate.js
+- .\node_modules\schema-utils\dist\index.js
+- .\node_modules\webpack-dev-middleware\dist\index.js[39m
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1420:15)
+    at .\node_modules\next\dist\server\require-hook.js:57:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (.\node_modules\next\dist\server\require-hook.js:68:28)
+    at require (node:internal/modules/helpers:152:16)
+[19:24:29.079] [WARN] Broken build, fix the error above.
+You may need to refresh the browser.

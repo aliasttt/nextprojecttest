@@ -1,0 +1,35 @@
+{
+  "common": {
+    "appName": "Meshur Marketplace",
+    "toggleTheme": "Toggle theme",
+    "switchLocale": "Switch language"
+  },
+  "nav": {
+    "home": "Home",
+    "favorites": "Favorites"
+  },
+  "home": {
+    "title": "Explore products"
+  },
+  "product": {
+    "addToFavorites": "Add to favorites",
+    "removeFromFavorites": "Remove from favorites",
+    "price": "Price",
+    "viewDetails": "View details",
+    "location": "Location"
+  },
+  "favorites": {
+    "title": "Your favorites",
+    "empty": "No favorites yet."
+  },
+  "errors": {
+    "notFoundTitle": "Page not found",
+    "notFoundCta": "Go back home",
+    "unexpectedTitle": "Something went wrong",
+    "unexpectedCta": "Try again"
+  }
+}
+
+
+
+

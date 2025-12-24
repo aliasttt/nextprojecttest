@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#065f46"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <path d="M420 620c-60-100-60-220 0-320 60-100 300-100 360 0 60 100 60 220 0 320" fill="#0b1220" stroke="#10b981" stroke-width="8" stroke-linecap="round"/>
+  <rect x="500" y="280" width="200" height="240" rx="24" fill="#111827" stroke="#334155" stroke-width="4"/>
+  <text x="160" y="160" fill="#ecfdf5" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700">
+    Product Image
+  </text>
+</svg>
+
+
+
+

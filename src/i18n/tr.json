@@ -1,0 +1,35 @@
+{
+  "common": {
+    "appName": "Meşhur Pazaryeri",
+    "toggleTheme": "Tema değiştir",
+    "switchLocale": "Dili değiştir"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "favorites": "Favoriler"
+  },
+  "home": {
+    "title": "Ürünleri keşfet"
+  },
+  "product": {
+    "addToFavorites": "Favorilere ekle",
+    "removeFromFavorites": "Favorilerden çıkar",
+    "price": "Fiyat",
+    "viewDetails": "Detayları gör",
+    "location": "Konum"
+  },
+  "favorites": {
+    "title": "Favorilerin",
+    "empty": "Henüz favorin yok."
+  },
+  "errors": {
+    "notFoundTitle": "Sayfa bulunamadı",
+    "notFoundCta": "Ana sayfaya dön",
+    "unexpectedTitle": "Bir şeyler ters gitti",
+    "unexpectedCta": "Tekrar dene"
+  }
+}
+
+
+
+
