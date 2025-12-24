@@ -70,10 +70,11 @@ The goal is “real-world maintainability” without over-engineering:
   - `src/domain/product/product.mappers.ts`: maps API → UI/domain models
 - **`src/components/`**: Atomic Design UI
   - `atoms/`, `molecules/`, `organisms/`, `templates/`
-- **`src/store/`**: Zustand stores (state logic isolated from UI)
 - **`src/stores/`**: Zustand stores (state logic isolated from UI)
   - `useFavoritesStore.ts`: normalized favorites state (persisted)
   - `useThemeStore.ts`: persisted theme preference
+- **`src/store/`**: test files for stores
+  - `favorites-store.test.ts`: unit tests for favorites store
 - **`src/i18n/`**: centralized URL-based i18n
   - typed dictionaries and a provider hook (`useI18n`)
 

@@ -15,3 +15,4 @@ export function FavoritesClient({ products }: Readonly<{ products: readonly Prod
 
 
 
+
